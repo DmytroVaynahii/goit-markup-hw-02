@@ -58,10 +58,6 @@ button {
     color:var(--accent-color);
 }
 
-.header-logo:focus {
-  color: rgb(0, 255, 191);
-}
-
 .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
@@ -138,7 +134,7 @@ button {
 .button-offer {
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 700;
   font-size: 16px;
   line-height: 30px;
   padding: 10px 15px;
