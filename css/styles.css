@@ -73,7 +73,7 @@ button {
 
   .link {
     color: var(--secondary-text-color);
-    font-weight: 500;
+    font-weight: var(--medium-font-weight);
     font-size: 14px;
     line-height: 1.17;
     letter-spacing: 0.02em;
@@ -92,9 +92,8 @@ button {
 /* Contacts in header */
 .header-contacts .contacts-link {
   color: var(--grey-color);
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
+  font-style: inherit;
+  font-weight: var(--medium-font-weight);
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
@@ -121,8 +120,8 @@ button {
   color:var(--primary-white-color);
   width: 696px;
   height: 120px;
-  font-style: normal;
-  font-weight: 900;
+  font-style: inherit;
+  font-weight: var(--black-font-weight);
   font-size: 44px;
   line-height: 60px;
   text-align: center;
@@ -132,9 +131,8 @@ button {
 
 /* hero button */
 .button-offer {
-  font-family: Roboto;
   font-style: inherit;
-  font-weight: 700;
+  font-weight: var(--bold-font-weight);
   font-size: 16px;
   line-height: 30px;
   padding: 10px 15px;
@@ -169,7 +167,7 @@ button {
 .quality-text {
   font-size: 14px;
   line-height: 1.17;
-  font-weight: 400;
+  font-weight: var(--regular-font-weight);
 }
 
 /* section our work */
@@ -194,14 +192,14 @@ button {
 
 .team-list-name {
   color: var(--secondary-text-color);
-  font-weight: 500;
+  font-weight: var(--medium-font-weight);
   font-size: 16px;
   line-height: 1.19;
 }
 
 .team-list-profession {
   color: var(--primary-text-color);
-  font-weight: 400;
+  font-weight: var(--regular-font-weight);
   font-size: 16px;
   line-height: 1.17;
 }
@@ -231,7 +229,7 @@ button {
 .footer-contacts-link {
   color: rgba(255, 255, 255, 0.6);
 
-  font-weight: 400;
+  font-weight: var(--regular-font-weight);
   line-height: 1.71;
   letter-spacing: var(--letter-spacing);
 }
@@ -249,8 +247,8 @@ button {
   background: var(--secondary-background-color);
   border-radius: 4px;
 
-  font-style: normal;
-  font-weight: 500;
+  font-style: inherit;
+  font-weight: var(--medium-font-weight);
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
@@ -279,7 +277,7 @@ button {
 
 .projects-text {
   color: var(--primary-text-color);
-  font-style: var(--regular-font-weight);
+  font-style: inherit;
   font-weight: var(--regular-font-weight);
   font-size: 16px;
   line-height: 1.87;
